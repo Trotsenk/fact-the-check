@@ -20,3 +20,6 @@ logs/
 
 # Служебные файлы macOS
 .DS_Store
+
+# Служебная папка JupyterLab
+.virtual_documents/
