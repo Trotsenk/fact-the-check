@@ -3,3 +3,6 @@ anthropic>=1.7,<2      # официальная библиотека Claude
 httpx>=0.28,<1         # запросы к PubMed, Europe PMC, ClinicalTrials.gov
 python-dotenv>=1.2,<2  # чтение ключа из .env
 ipykernel>=7.3,<8      # окружение проекта как ядро Jupyter
+pillow>=12.3,<13       # картинки: размер, нарезка, уменьшение
+rapidocr>=3.9,<4       # OCR: второй независимый канал для чисел (решение № 29)
+onnxruntime>=1.30,<2   # движок, на котором работают модели RapidOCR

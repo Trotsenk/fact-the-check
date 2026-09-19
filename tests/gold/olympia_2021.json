@@ -1,0 +1,36 @@
+{
+  "trial_name": "OlympiA",
+  "citation": "Tutt ANJ et al. N Engl J Med 2021",
+  "source": "PubMed PMID 34081848; полный текст PMC9126186",
+  "on_slide": {
+    "trial_name": "Olympiad trial"
+  },
+  "endpoints": {
+    "IDFS": {
+      "rate_3y_olaparib": 85.9,
+      "rate_3y_placebo": 77.1,
+      "diff": 8.8,
+      "diff_ci_low": 4.5,
+      "diff_ci_high": 13.0,
+      "hr": 0.58,
+      "hr_ci_level": 99.5,
+      "hr_ci_low": 0.41,
+      "hr_ci_high": 0.82,
+      "p": "<0.001",
+      "events_olaparib": 106,
+      "events_placebo": 178
+    },
+    "DDFS": {
+      "rate_3y_olaparib": 87.5,
+      "rate_3y_placebo": 80.4,
+      "diff": 7.1,
+      "diff_ci_low": 3.0,
+      "diff_ci_high": 11.1,
+      "hr": 0.57,
+      "hr_ci_level": 99.5,
+      "hr_ci_low": 0.39,
+      "hr_ci_high": 0.83,
+      "p": "<0.001"
+    }
+  }
+}
