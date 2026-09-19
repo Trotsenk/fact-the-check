@@ -14,7 +14,7 @@ def cost_usd(usage, model):
     output_tokens = usage.output_tokens
     price_input_per_million, price_output_per_million = PRICES[model]
     return ((input_tokens*price_input_per_million) + (output_tokens*price_output_per_million))/1_000_000
-    
+
 
 # Модель на шаге «чтение слайда» — решение № 31. Меняется только записью в журнал.
 READ_MODEL = "claude-opus-5"
