@@ -16,5 +16,7 @@ def cost_usd(usage, model):
     return ((input_tokens*price_input_per_million) + (output_tokens*price_output_per_million))/1_000_000
 
 
-# Модель на шаге «чтение слайда» — решение № 31. Меняется только записью в журнал.
-READ_MODEL = "claude-opus-5"
+# Модели на шаге «чтение слайда» — решение № 39. Меняются только записью в журнал.
+READ_MODEL_FAST = "claude-haiku-4-5"      # быстрый режим (приоритет): с подсказкой OCR, метка «упрощённое чтение»
+READ_MODEL_ACCURATE = "claude-opus-5"     # точный режим — по запросу
+
